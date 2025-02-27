@@ -1,0 +1,21 @@
+.icons-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.payment-icon {
+    width: 50px; /* Размер иконок */
+    height: auto;
+    margin: 0 5px; /* Отступы между иконками */
+    filter: grayscale(100%); /* По умолчанию все иконки черно-белые */
+    transition: filter 0.3s; /* Плавный переход при наведении */
+}
+
+.payment-icon.active {
+    filter: grayscale(0%); /* Цветная иконка для активной платежной системы */
+}
+
+.payment-icon.inactive {
+    filter: grayscale(100%); /* Черно-белая иконка для неактивной платежной системы */
+}
