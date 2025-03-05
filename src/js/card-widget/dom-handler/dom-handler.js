@@ -14,9 +14,11 @@ export class DOMHandler {
             <div class="card-logos">
 
             </div>
-            <input type="text" class="card-number" placeholder="4111111111111111" required maxlength="19">
+                <div class="input-container">
+                <input type="text" class="card-number" placeholder="4111111111111111" required maxlength="19">
 
-            <button type="submit" class="validate-button">Click to validate</button>
+                <button type="submit" class="validate-button">Click to validate</button>
+            </div>
         </form>
 
         <div class="result">
